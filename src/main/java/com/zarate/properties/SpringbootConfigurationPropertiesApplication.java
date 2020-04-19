@@ -20,7 +20,6 @@ public class SpringbootConfigurationPropertiesApplication {
 
 	@PostConstruct
 	public void test() {
-		System.out.println("Use a breakpoint here to inspect the variable.");
 		System.out.println(properties.getCommitSuicide());
 		System.out.println(properties.getExiled());
 		System.out.println(properties.getExecuted());
